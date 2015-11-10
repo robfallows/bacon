@@ -1,0 +1,13 @@
+<head>
+  <title>xxx</title>
+</head>
+
+<body>
+  {{> discover url="https://baconipsum.com/api/?type=meat-and-filler"}}
+</body>
+
+<template name="discover">
+  <p>{{url}}</p>
+  <hr>
+  <p>{{result}}</p>
+</template>
